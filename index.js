@@ -60,7 +60,8 @@ function home(){
      var home = document.getElementsByClassName('home')[0];
      home.style.display='block';
       document.body.style.backgroundImage=" url('http://iphonewalls.net/wp-content/uploads/2016/09/iOS%209%20Colorful%20Surf%20Wave%20iPhone%206+%20HD%20Wallpaper.jpg')";
-      document.body.style.backgroundSize ='30% 300%';
+      document.body.style.backgroundSize ='350px 600px';
+      document.body.style.backgroundRepeat ='no-repeat';
 
 }
 
@@ -165,7 +166,9 @@ function home_news(){
      var home = document.getElementsByClassName('home')[0];
      home.style.display='block';
      document.body.style.backgroundImage=" url('http://iphonewalls.net/wp-content/uploads/2016/09/iOS%209%20Colorful%20Surf%20Wave%20iPhone%206+%20HD%20Wallpaper.jpg')";
-      document.body.style.backgroundSize ='30% 300%';
+      document.body.style.backgroundSize ='350px 600px';
+      document.body.style.backgroundRepeat ='no-repeat';
+
 
 
 }
@@ -248,7 +251,9 @@ $(function(){
       map.style.display='none';
       home.style.display='block';
       document.body.style.backgroundImage=" url('http://iphonewalls.net/wp-content/uploads/2016/09/iOS%209%20Colorful%20Surf%20Wave%20iPhone%206+%20HD%20Wallpaper.jpg')";
-      document.body.style.backgroundSize ='30% 300%';
+      document.body.style.backgroundSize ='350px 600px';
+      document.body.style.backgroundRepeat ='no-repeat';
+
 
 
     });
@@ -271,7 +276,9 @@ $(function(){
      music.style.marginTop='0';
      home.style.display='block';
      document.body.style.backgroundImage=" url('http://iphonewalls.net/wp-content/uploads/2016/09/iOS%209%20Colorful%20Surf%20Wave%20iPhone%206+%20HD%20Wallpaper.jpg')";
-      document.body.style.backgroundSize ='30% 300%';
+      document.body.style.backgroundSize ='350px 600px';
+      document.body.style.backgroundRepeat ='no-repeat';
+
 
 
     });
