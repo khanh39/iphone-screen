@@ -1,0 +1,375 @@
+body {
+   background-image:url('http://iphonewalls.net/wp-content/uploads/2016/09/iOS%209%20Colorful%20Surf%20Wave%20iPhone%206+%20HD%20Wallpaper.jpg');
+	background-size:30% 300%;
+  background-repeat: no-repeat;
+	margin:0;
+	font-family:monospace;
+	resize:both;
+
+}
+
+
+.content td{
+    text-align:center;
+    padding-left:20;
+    padding-top:10;
+    padding-right:5;
+    color:white;
+}
+
+#tools{
+    width:100%;
+}
+
+.content td:hover{
+    opacity:0.5;
+    cursor:pointer;
+}
+
+
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 5%;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 25%;
+    background-image:url('http://www.youngandraw.com/wp-content/uploads/27571-blue-blur-2560x1600-abstract-wallpaper.jpg');
+    opacity:.8;
+
+
+
+
+}
+
+
+.li {
+    float: left;
+
+}
+
+.li  {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left:1%;
+    margin-left:3%;
+    text-decoration: none;
+
+
+   }
+
+
+.li img:hover{
+      opacity:0.5;
+    cursor:pointer;
+}
+
+.li img{
+      padding-left:10;
+      text-align:center;
+}
+
+#search{
+    margin-left:25;
+}
+
+
+
+/* ONCLICK APPS*/
+
+h2{
+    text-align:center;
+
+
+
+}
+
+
+
+
+
+
+.modal{
+
+    width:100%;
+    height:80%;
+    padding-bottom:10%;
+    display:none;
+}
+
+
+
+
+.search{
+
+    width:100%;
+    text-align:center;
+    height:10%;
+    padding:1%;
+    background:#C0C0C0;
+}
+
+input[type=text]{
+    margin:1%;
+    border:1px solid white;
+    width:90%;
+    border-radius:5px 5px;
+
+}
+
+.airplane, .wifi{
+    padding:1%;
+    width:96%;
+
+    border-top:1pt solid #C0C0C0;
+
+}
+
+
+.switch {
+
+
+background:#f7faff;
+border-radius: 8pt;
+border:1px solid #C0C0C0;
+width:15%;
+float:right;
+margin-right:5%;
+
+}
+
+#img:hover{
+    cursor:pointer;
+}
+
+label{
+    padding-left:10%;
+    padding-top:0;
+    font-size:120%;
+    font-family:arial;
+}
+
+
+
+
+/*
+
+Maps
+*/
+
+
+
+.map{
+    display:none;
+}
+
+
+ #map{
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+  }
+
+
+#coords{
+        border-radius: 25px;
+        color:green;
+    border: 2px solid #73AD21;
+    padding: 10px;
+
+  }
+
+
+span{
+    font-size:20;
+    color:#5ba2ff;
+
+    cursor:pointer;
+}
+
+  .button {
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 5px;
+    width: 100px;
+    margin:10;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+
+
+
+.apple_news {
+
+    display:none;
+}
+
+
+.nav2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:rgb(102, 37, 42);
+}
+
+.li2 {
+    float: left;
+}
+
+.li2 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li2 a:hover {
+    opacity:.5;
+}
+
+
+
+
+
+
+
+span{
+    font-size:20;
+    color:#5ba2ff;
+    cursor:pointer;
+}
+
+
+#h3{
+    font-size:24px;
+
+}
+#h5{
+    font-size:18px;
+
+}
+
+#h3,#h5{
+    font-weight:400;
+    margin:10px 0;
+
+}
+
+ #h3 ,#h5 {
+    font-weight:inherit;
+
+}
+hr{
+    border:0;
+    border-top:1px solid #eee;
+    margin:20px 0;
+
+}
+.news{
+    height:50%;
+    width:100%;
+    margin-bottom:-5px;
+
+}
+
+.w3-opacity{
+    opacity:0.60;
+    filter:alpha(opacity=60);
+    -webkit-backface-visibility:hidden;
+
+}
+
+.w3-card-4,.w3-hover-shadow:hover{box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important
+
+}
+
+
+.read_more{
+    background-color: rgb(102, 37, 42);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:135%;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+/* APPLE MUSIC*/
+
+.apple_music{
+    display:none;
+}
+
+
+
+.controls{
+	text-align:center;
+	font-family:sans-serif;
+	font-weight:bold;
+	margin:0;
+	resize: both;
+	overflow: auto;
+}
+
+#name{
+	font-size:100%;
+}
+
+
+
+.controls img{
+	margin:1%;
+	border-radius:20px 25px;
+}
+
+
+.controls img:hover{
+	cursor:pointer;
+	opacity:.45;
+
+}
+
+
+
+#previous{
+  transform:rotate(180deg);
+}

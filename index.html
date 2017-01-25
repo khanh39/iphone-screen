@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+		<title>IOS</title>
+    <link rel="stylesheet" href="index.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="index.js"></script
+	</head>
+	<body>
+
+	   <div>
+
+	        <table id='tools'>
+	            <tr>
+	       <td><img id='data' src='http://www.rogers.com/cms/common/css/img/widget-loader-lg.gif' width='30'> <img id='wify' src='http://www.freeiconspng.com/uploads/blue-wifi-icon-3.png' width='20'></td>
+
+	       <td id='time'></td>
+	       <td > <img src='http://www.screencastsonline.com/public_images/01-new/SCOI0062-summary-icon-100x100.png' width='30'></td>
+
+	            </tr>
+	        </table>
+	        <br>
+
+	    </div>
+
+
+	    <div class='home'>
+
+	    <div id='home_page'>
+
+	<table class='content'>
+	    <tr>
+	        <td><img src='http://cdn.churchm.ag/wp-content/uploads/2015/09/Apple-Settings-Logo-Icon-180x180.png' width='50' onclick='setting()'><br>  Setting</td>
+	        <td><img src ='https://vrworld.com/wp-content/uploads/2010/12/Mac-App-Store-icon.png' onclick='appstore()' width='50'><br>Appstore	</td>
+	        <td><img src='https://images-na.ssl-images-amazon.com/images/I/61Wt8dtnmxL.png' width='50'><br>Triller</td>
+	        <td><img id ='fb' src='http://blog.addthiscdn.com/wp-content/uploads/2015/11/logo-facebook.png' width='50'  ><br>Facebook</td>
+	    </tr>
+
+	    <tr>
+	        <td><img id='maps' src='http://icons.iconarchive.com/icons/scafer31000/bubble-circle-3/1024/Maps-icon.png' width='50'><br>Maps</td>
+	        <td><img id='insta' src ='http://go2advertising.com/go2-live/wp-content/uploads/instagram.png' width='50'><br>Instagram	</td>
+	        <td><img id="myBtn" src='http://jimmymacsupport.com/wp-content/uploads/2015/04/Photos-icon.png' width='50' onclick='photo()'><br>Photos</td>
+	        <td><img src='http://myfreeweather.com/assets/weatherlogo.png' width='50'><br>Weather</td>
+	    </tr>
+
+	    <tr>
+	        <td><img src='http://www.iconarchive.com/download/i78146/igh0zt/ios7-style-metro-ui/MetroUI-Apps-Windows8-News.ico' width='50' onclick='news()'><br>Apple News </td>
+	    </tr>
+	</table>
+			<ul class='nav'>
+		    <li class='li' id='search' ><img  src='http://downloadicons.net/sites/default/files/search-icon-6351.png' width='35'><br>Search</li>
+  <li class='li'><img id='1' src='http://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/256/MetroUI-Other-Phone-icon.png' width='35'><br>Phone</li>
+  <li class='li'><img  id='2' src='https://lh3.googleusercontent.com/-E-jAfuwURMbYgvRhS8xLL8p280U9ueeC-IDrJOFmxGZpBJCWOY4jTbOKK1DZkPIFAUu=w300' width='35'><br>Music</li>
+  <li class='li'><img id='3' src='https://www.macupdate.com/images/icons256/15675.png' width='35'><br>Safari</li>
+  <li class='li' ><img id='4' src='https://photoapps.expert/sites/default/files/sitegraphics/app_icons/ios_8_camera-512.png' width='35' onclick='camera()'><br>Camera</li>
+</ul>
+
+
+	</div>
+</div>
+
+
+
+
+
+<div class='modal'>
+		    <div class='header'>
+		      <span onclick='home()'>  &#10094;<small> Home</small> </span>
+		      <br>
+		   <div class='search' > <input type='text' placeholder='search'></div>
+		        	</div>
+
+		        <div class=' content'>
+		            <div class='airplane'>
+	    <img id='airplane' src='https://apk-dl.com/detail/image/com.floriandraschbacher.airplanemode.pro-w200.png' width='25'><label>Airplane Mode</label>
+		<div class='switch'>
+<img id = 'img' onclick='slideButton()' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/2000px-Circle_-_black_simple.svg.png' width='25' style='padding-left:5%'>
+
+		</div>
+
+
+
+
+			    <div class='wifi'>
+	    <img id='wifi' src='http://www.iconarchive.com/download/i104453/custom-icon-design/flatastic-11/Wifi-2.ico' width='25'><label>Wifi</label>
+		<div class='arrow'>
+
+
+		</div>
+
+		</div>
+		        </div>
+
+
+
+
+
+
+
+
+		    </div>
+
+		</div>
+
+
+				        <div class='map'  >
+ <span id='home_map' >  &#10094;<small> Home</small> </span>
+ <br>
+
+<button class='button' onclick="getLocation()">Locate</button>
+<h1>Coordinates</h1>
+<p id="coords"></p>
+
+<div id="map" style="width:100%;height:80%"></div>
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+</div>
+
+
+
+<div class='apple_news'>
+	         <span onclick='home_news()'> &#10094;<small> Home</small> </span>
+
+	        <ul class='nav2'>
+  <li class='li2'><a href="#home">Home</a></li>
+  <li class='li2'><a href="#news">News</a></li>
+  <li class='li2'><a href="#contact">Contact</a></li>
+  <li class='li2'><a href="#about">About</a></li>
+</ul>
+
+	    <div class="w3-card-4 w3-margin w3-white" style='color:rgb(102, 37, 42)'>
+
+		<h3 id='h3'><b>Apple News</b></h3>
+      <h5 id='h5'>Title description, <span class="w3-opacity">December 22, 2016</span></h5>
+    </div>
+
+    <div class="w3-container" style='color:rgb(102, 37, 42)'>
+        <img class='news' src='http://georgia.travel/uploads/2015/01/bg1small-1.jpg' >
+      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+
+
+        <hr>
+         <p><button class="read_more"><b>READ MORE »</b></button></p>
+
+
+        </div>
+
+         </div>
+
+<div class='apple_music'>
+
+	        <span id='music_apple' >  &#10094;<small> Home</small> </span>
+	        <br>
+
+	      			<div class='controls'>
+
+
+		<div class='image' style='width:70%;height:55%;margin-left:15%;margin-bottom:0'>
+
+			<br>
+			<img id='image'  src='http://data.whicdn.com/images/195009597/large.jpg' width='65%'>
+			</div>
+		<br>
+	<div width>
+		<label id='name' >Music</label>
+		<br>
+		<small><label id='artist' style='color:red'></label></small>
+		</div>
+		<br>
+
+	<audio id="myaudio">
+	  HTML5 audio not supported
+	</audio>
+
+		<img id='next'   src='https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTptOs02szcrp6lx01Zk8ihoaJE04gIHUbbhNlsp6cNy_qlPMLD' width='10%'>
+		<img id="play"   src='https://cdn1.iconfinder.com/data/icons/glyphie-1/40/button_play_triangle_music_video_audio_arrow_next-512.png' width='10%'>
+		<img id='previous'  src='https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTptOs02szcrp6lx01Zk8ihoaJE04gIHUbbhNlsp6cNy_qlPMLD' width='10%'>
+
+
+	</div>
+
+</div>
+
+	</body>
+</html>
